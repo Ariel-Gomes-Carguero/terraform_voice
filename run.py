@@ -16,13 +16,13 @@ def cria_audio(audio):
     playsound('audios/hello.mp3')
 
 def terraformation(frase):
-    tf = Terraform(working_dir='/Users/arielgomes/PycharmProjects/voice/Terraform')
+    tf = Terraform(working_dir='Terraform/')
     tf.init()
     tf.plan()
     tf.apply(skip_plan=True)
 
 def destruir(frase):
-    tf = Terraform(working_dir='/Users/arielgomes/PycharmProjects/voice/Terraform')
+    tf = Terraform(working_dir='Terraform/')
     tf.destroy()
 
 
