@@ -18,4 +18,4 @@ Para destruir a infraestrutura criada
 
 <br>
 
-Atenção: é necessário criar diretório de nome "audios" na pasta raiz do script
+Atenção: É necessário criar diretório de nome "audios" na pasta raiz do script
