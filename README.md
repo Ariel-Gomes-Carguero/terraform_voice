@@ -15,3 +15,7 @@ Para destruir a infraestrutura criada
 
 * Diga: - Destruir Infraestrutura
 * Se tudo estiver ok receberá a confirmação por audio
+
+<br>
+
+Atenção é necessário criar diretório de nome "audios" na pasta raiz do script
