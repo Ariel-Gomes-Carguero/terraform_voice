@@ -1,7 +1,7 @@
 # Terravoice
 Crie Infraestrutura AWS com comando de Voz
 
-<img src="https://media.giphy.com/media/HoffxyN8ghVuw/giphy.gif">
+<img src="https://media.giphy.com/media/JSXlcb2U0czPcBHL2k/giphy.gif">
 
 O Script funciona usando módulos de speech recognition, ou seja, é possivel executar comandos pré-programados com a voz,
 * Diga: - Criar ec2
