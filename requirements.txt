@@ -1,0 +1,5 @@
+SpeechRecognition==3.8.1
+python-terraform==0.10.1
+playsound==1.2.2
+PyAudio==0.2.11
+gTTS==2.2.2
