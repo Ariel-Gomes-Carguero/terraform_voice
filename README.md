@@ -9,6 +9,7 @@ O Script funciona usando módulos de speech recognition, ou seja, é possivel ex
 <br>
 O script irá chamar o módulo terraform que está dentro da pasta "terraform/", e criara uma ec2 simples, nada impede que você personalize com os próprios módulos e comandos de audio.
 <br>
+<br>
 
 Para destruir a infraestrutura criada
 
