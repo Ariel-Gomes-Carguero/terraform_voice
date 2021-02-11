@@ -3,18 +3,11 @@ from gtts import gTTS
 from playsound import playsound
 from python_terraform import *
 
+#Falas pré-configuradas
 audio2 = "Infraestrutura Criada"
 audio3 = "Infraestrutura Destruida"
 
-#Funcao responsavel por ouvir e reconhecer a fala
-def cria_audio(audio):
-    tts = gTTS(audio,lang='pt-br')
-    #Salva o arquivo de audio
-    tts.save('audios/hello.mp3')
-    print("Trazendo resultados da internet...")
-    #Da play ao audio
-    playsound('audios/hello.mp3')
-
+#Modulo Terraform
 def terraformation(frase):
     tf = Terraform(working_dir='Terraform/')
     tf.init()
@@ -25,7 +18,7 @@ def destruir(frase):
     tf = Terraform(working_dir='Terraform/')
     tf.destroy()
 
-
+#Funcao responsavel por ouvir e reconhecer a fala
 def ouvir_microfone():
     microfone = sr.Recognizer()
     with sr.Microphone() as source:
@@ -40,7 +33,7 @@ def ouvir_microfone():
         print("Não entendi")
     return frase
 
-
+#Funcao responsavel por falar audio recebido
 def welcome(audio2):
     tts = gTTS(audio2,lang='pt-br')
     #Salva o arquivo de audio
